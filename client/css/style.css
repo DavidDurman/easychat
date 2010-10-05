@@ -1,0 +1,41 @@
+h1 { 
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  color: orange;
+}
+
+.page { 
+  margin: 0 auto 0 auto;
+  width: 400px;
+}
+
+#input { 
+  border: 1px solid gray;
+  width: 350px;
+  margin-left: 12px;
+  -webkit-box-shadow: 10px 10px 5px #888; 
+  -moz-box-shadow: 10px 10px 5px #888; 
+  box-shadow: 10px 10px 5px #888; 
+  padding: 5px 5px 5px 15px;
+}
+
+#messages { 
+  list-style-type: none;
+  margin: 20px 10px;
+  padding: 0;
+}
+
+li {
+  color: blue;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.date { 
+  font-size: 10px;
+  color: green;
+  margin-right: 10px;
+}
+
+.date:after { 
+  content: ":";
+}

@@ -1,0 +1,13 @@
+Realtime chat demo application using HTML 5 + nodejs + antinode + node-websocket-server.
+Tested on Google Chrome 6,7.
+
+@author David Durman, 2010
+
+INSTALLATION
+
+0. sudo mkdir /www/default
+1. Customize webSocketServerIP address of websocket server in ./client/js/client.js
+2. ./run.sh
+3. Open http://[webSocketServerIP]:8000 in a browser (or more on the same net)
+4. killall node (to close everything)
+
