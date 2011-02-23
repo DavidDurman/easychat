@@ -1,5 +1,5 @@
 // globals
-var webSocketServerIP = "192.168.55.102",
+var webSocketServerIP = "192.168.107.33",
     webSocketAddress = "ws://" + webSocketServerIP + ":8000",
     conn, li, input, messages;
 
